@@ -6,7 +6,7 @@ Tool used to create Raspberry Pi OS images. (Previously known as Raspbian).
 ## Dependencies
 
 pi-gen runs on Debian-based operating systems. Currently it is only supported on
-either Debian Buster or Ubuntu Xenial and is known to have issues building on
+either Debian bullseye or Ubuntu Xenial and is known to have issues building on
 earlier releases of these systems. On other Linux distributions it may be possible
 to use the Docker build described below.
 
@@ -84,7 +84,7 @@ The following environment variables are supported:
    Debian release. However, since different releases will have different sets of
    packages available, you'll need to either modify your stages accordingly, or
    checkout the appropriate branch. For example, if you'd like to build a
-   `buster` image, you should do so from the `buster` branch.
+   `bullseye` image, you should do so from the `bullseye` branch.
 
  * `APT_PROXY` (Default: unset)
 
